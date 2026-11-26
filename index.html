@@ -20,6 +20,7 @@
       <span>TellusHive</span>
     </a>
     <nav class="bar__nav" aria-label="Sections">
+      <a class="link" href="#bots">Bots</a>
       <a class="link" href="#team">Team</a>
       <a class="link" href="#evidence">Evidence</a>
       <a class="link" href="#download">Download</a>
@@ -35,7 +36,7 @@
         <h1 class="display" id="hero-title">Design that shows <em>its working.</em></h1>
         <p class="lede">A team of AI agents for civil engineering design.<span class="lede__more"> Describe the beam, footing, wall or slope; a coordinator hands it to a designer, a checker and analysts that calculate to your standards, run the analysis programs, draw the details and write the calculation report.</span></p>
         <div class="actions">
-          <a class="btn btn--primary" href="#download">Download 0.1.7</a>
+          <a class="btn btn--primary" href="#download">Download 0.1.9</a>
           <a class="btn btn--ghost" href="https://github.com/Sompote/TellusHive">Read the source</a>
         </div>
       </div>
@@ -94,6 +95,29 @@
         <li><span>B</span>Checked: an independent checker returns pass or a list of errors.</li>
         <li><span>C</span>Honest: when the standards library does not cover a method, it says so.</li>
       </ul>
+    </section>
+
+    <!-- 2b. The Bots workspace, in screenshots -->
+    <section class="product" id="bots" aria-labelledby="bots-title">
+      <div class="product__head">
+        <p class="eyebrow mono">New in 0.1.9 &middot; Bots workspace</p>
+        <h2 class="h2" id="bots-title">Message one bot. It runs the office.</h2>
+        <p class="muted">Each bot has its own name, face, character and model, and you talk to it the way you would message a colleague. It agrees the scope with you, hands the work to the team behind it and reports back, citing the clause and page of the standard it used.</p>
+      </div>
+      <figure class="shot shot--main">
+        <img src="assets/shots/bots.webp" width="1600" height="981" loading="lazy" decoding="async" alt="The Bots workspace: a rail of four bot portraits on the left, and a chat with the bot Arun, who answers a request for a pile foundation in Bangkok clay by citing Clauses 5 and 24(1) of the 2566 Thai ministerial regulation and asking for the soil data it needs.">
+        <figcaption class="mono"><span>Fig. 1</span>A pile foundation request to Arun, answered with the clauses it relies on and the data it still needs.</figcaption>
+      </figure>
+      <div class="shots">
+        <figure class="shot">
+          <img src="assets/shots/team.webp" width="1600" height="981" loading="lazy" decoding="async" alt="The Team workspace: the design office as a graph of agents led by the coordinator, with a panel listing the coordinator, designer, checker and geotechnical analyst working at the same time and what each is doing.">
+          <figcaption class="mono"><span>Fig. 2</span>The team behind a bot, with each agent's task shown live.</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="assets/shots/library.webp" width="1200" height="854" loading="lazy" decoding="async" alt="Settings, Standards library: nine standards including ACI 318M-25, Eurocode 7, UFC 3-220-20, the 2566 Thai ministerial regulation and DPT 1105-64, each with Browse and delete, and a button to import a standard.">
+          <figcaption class="mono"><span>Fig. 3</span>One standards library for every project and bot, under Settings.</figcaption>
+        </figure>
+      </div>
     </section>
 
     <!-- 3. The team as a drawing register -->
@@ -206,27 +230,27 @@
     <!-- 6. Download as a title block -->
     <section class="download" id="download" aria-labelledby="dl-title">
       <h2 class="h2" id="dl-title">Download</h2>
-      <p class="muted">Version 0.1.7, developer preview. Not signed by Apple or Microsoft: on macOS right-click the app and choose Open the first time; on Windows choose More info, then Run anyway.</p>
+      <p class="muted">Version 0.1.9, developer preview. Not signed by Apple or Microsoft: on macOS right-click the app and choose Open the first time; on Windows choose More info, then Run anyway.</p>
       <div class="block">
         <div class="block__rel">
           <span class="k mono">Release</span>
-          <span class="block__ver">0.1.7</span>
-          <span class="mono block__date">Developer preview &middot; 16 Nov 2026</span>
+          <span class="block__ver">0.1.9</span>
+          <span class="mono block__date">Developer preview &middot; 26 Nov 2026</span>
         </div>
-        <a class="block__dl" href="https://github.com/Sompote/TellusHive/releases/download/v0.1.7/TellusHive-0.1.7-macos-universal.zip">
+        <a class="block__dl" href="https://github.com/Sompote/TellusHive/releases/download/v0.1.9/TellusHive-0.1.9-macos-universal.zip">
           <span class="k mono">macOS 11 or newer &middot; Apple silicon and Intel</span>
           <span class="block__sys">Download for Mac</span>
-          <span class="mono block__file">TellusHive-0.1.7-macos-universal.zip &middot; 25.3 MB</span>
+          <span class="mono block__file">TellusHive-0.1.9-macos-universal.zip &middot; 26.7 MB</span>
         </a>
-        <a class="block__dl" href="https://github.com/Sompote/TellusHive/releases/download/v0.1.7/TellusHive-0.1.7-windows-x64.zip">
+        <a class="block__dl" href="https://github.com/Sompote/TellusHive/releases/download/v0.1.9/TellusHive-0.1.9-windows-x64.zip">
           <span class="k mono">Windows 10 or 11 &middot; 64-bit</span>
           <span class="block__sys">Download for Windows</span>
-          <span class="mono block__file">TellusHive-0.1.7-windows-x64.zip &middot; 17.9 MB</span>
+          <span class="mono block__file">TellusHive-0.1.9-windows-x64.zip &middot; 18.5 MB</span>
         </a>
         <div class="block__sums mono">
           <span class="k">SHA-256</span>
-          <button class="copy" type="button" data-sum="1c0d156538cdf5d0686e72f7c8920cad760949a0f3b65e226bc06a967bf4b93b" aria-label="Copy macOS checksum">Mac 1c0d1565&hellip;4b93b</button>
-          <button class="copy" type="button" data-sum="5e67beb4910a6945547e410c6e0a31805021fa2f9067bb994114c51d98e20613" aria-label="Copy Windows checksum">Win 5e67beb4&hellip;20613</button>
+          <button class="copy" type="button" data-sum="681106fa778f719d61df8f77b7cfe226ca83a926b809b4659e10b1c06ba7c8d8" aria-label="Copy macOS checksum">Mac 681106fa&hellip;7c8d8</button>
+          <button class="copy" type="button" data-sum="1cd05a41a26e9da32b23d0fa255734621cf1b5e6fdf41c4606db177ed845b7ee" aria-label="Copy Windows checksum">Win 1cd05a41&hellip;b7ee</button>
         </div>
       </div>
     </section>
@@ -235,7 +259,7 @@
   <!-- 7. Footer as a sheet border -->
   <footer class="sheet mono">
     <div class="sheet__cell"><span class="k">Project</span>TellusHive</div>
-    <div class="sheet__cell"><span class="k">Rev</span>0.1.7</div>
+    <div class="sheet__cell"><span class="k">Rev</span>0.1.9</div>
     <div class="sheet__cell"><span class="k">Licence</span>Open source, see LICENSE</div>
     <div class="sheet__cell"><span class="k">Drawn by</span>AI Research Group, Civil Engineering, KMUTT</div>
     <div class="sheet__cell sheet__cell--wide"><span class="k">Note</span>Check every design before you use it. Read SAFETY.md first.</div>
